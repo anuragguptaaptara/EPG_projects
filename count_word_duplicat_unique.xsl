@@ -13,7 +13,7 @@
                         <th>File Name</th>
                         <th>Total Word Counts</th>
                         <th>Unique Word Count</th>
-                        <th>Duplicate Word Count</th>
+                        <th>Duplicatekkkkkkk Word Count</th>
                     </tr>
                     
                     <xsl:for-each select="collection(concat(substring-before(base-uri(),tokenize(base-uri(),'/')[last()]),'?select=*.html;recurse=yes'))">
